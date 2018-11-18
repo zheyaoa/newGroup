@@ -1,0 +1,45 @@
+html,body{
+    height: 100%;
+    background-color: #F3F3F4;
+}
+td{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.tittle{
+        padding: 0;
+        margin: 0px;
+        text-align: center;
+}
+input{
+    border: none;
+    background-color: #F3F3F4;
+    outline:none;
+    font-weight: normal;
+    width: 150px;
+}
+textarea{
+    width: 100%;
+    resize : none;
+    background-color: #F3F3F4;
+    border: none;    
+    outline: none;
+}
+.col-1,.col-3{
+    width: 150px;
+}
+.row-6,.row-8,.row-13{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 20px;
+}
+.photo{
+    width: 150px;
+    text-align: center; 
+}
+#submit{
+    background-color: #337ab3;  
+    font-weight: bold;  
+    letter-spacing: 2px;
+}

@@ -1,0 +1,56 @@
+body,html{
+    height: 100%;
+    background-color: #F3F3F4;
+}
+h3{
+    letter-spacing: 50px;    
+    margin-bottom: 10px; 
+}
+.parent{
+    position: relative;
+    top: 50px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.content{
+    margin: 10px 20px 10px 20px;
+}
+.content div{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+}
+.content div span,.content div input{
+    background-color: white ;
+}
+
+.content .name{
+    width: 35%;
+    padding: 6px 2px;
+    border:none;
+}
+
+/* table */
+.partmentMessage table{
+    margin: auto;
+    width: 90%;
+}
+
+.partmentMessage tbody input{
+    box-sizing: border-box;
+}
+
+th{
+    text-align: center
+}
+
+#affirm{
+    margin-top:10px; 
+    width: 30%;
+    margin:atuo;
+    clear: both;
+    float: initial
+}
+    

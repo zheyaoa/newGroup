@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>招新</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <!--.list  表示一级导航栏元素 
+        .nav-items 表示二级导航栏元素 
+    -->
+    <div class="container-fluid autoheight ">
+        <div class="row autoheight ">
+            <!-- left navigation -->
+            <nav class="nav left-navbar">
+                <div>
+                    <div class="title  text-center">
+                            超级社团
+                    </div>
+                    <!-- 一级导航 -->
+                    <ul class="nav nav-pills nav-stacked" style="background: #03101E;">
+                        <li class="list">
+                            <a href="#" class="">
+                    			<span class="glyphicon glyphicon-stats"></span>
+                    			数据统计
+                    			<span class="glyphicon glyphicon-chevron-left float-right"></span>
+                   			 </a>
+                            <!-- 二级导航 -->
+                            <ul class="nav nav-pills nav-stacked display-none">
+                                <li class="text-center nav-items">
+                                	<a href="#" url="data-statistics.html">
+                                		<span class="glyphicon glyphicon-pencil	"></span>  招新信息统计
+                                	</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list">
+                            <a href="#" class="">
+                            	<span class="glyphicon glyphicon-comment"></span>
+                    			招新管理<span class="glyphicon glyphicon-chevron-left float-right"></span>
+                    		</a>
+                            <!-- 二级导航 -->
+                            <ul class="nav nav-pills nav-stacked display-none">
+                                <li class="text-center nav-items">
+                                	<a href="#" url="messageDemo.html">
+                                		<span class="glyphicon glyphicon-envelope"></span>
+                                		信息模板
+                                	</a>
+                                </li>
+                                <li class="text-center nav-items">
+                                	<a href="#" url="newApplicationForm.html">
+                                		<span class="glyphicon glyphicon-list-alt"></span>
+                                		创建报名表
+                                	</a>
+                                </li>
+                                <li class="text-center nav-items">
+                                	<a href="#" url="checkMessage.html">
+                                		<span class="glyphicon glyphicon-eye-open"></span>
+                                		审核报名表
+                                	</a>
+                            	</li>
+                            </ul>
+                        </li>
+                        <li class="list">
+                            <a href="#">
+                    			<span class="glyphicon glyphicon-user" ></span>   社团管理 
+                    			<span class="glyphicon glyphicon-chevron-left float-right"></span>
+                    		</a>
+                            <!-- 二级导航 -->
+                            <ul class="nav nav-pills nav-stacked display-none">
+                                <li class="text-center nav-items">
+                                    <a href="#" url="manageSociety.html">
+                    					<span class="glyphicon glyphicon-off"></span>  社团管理
+                    				</a>
+                                </li>
+                                <li class="text-center nav-items">
+                                    <a href="#" url="homePage.html">
+                                    	<span class='glyphicon glyphicon-inbox'></span>
+                                    	部门信息
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- html-right -->
+            <div class="main-page">
+                <ul class="nav navbar-top nav-tabs">
+                        	<li class="">
+                        		<a href="#" url='homePage.html' class="homePage">
+                					<span class="glyphicon glyphicon-home home"></span>    首页
+                				</a>	
+                			</li>
+                			<li class ="navbar-right dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <span class="glyphicon glyphicon-user"></span>    用户
+                                <b class="caret"></b>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">登入</a></li>
+                                    <li><a href="#">退出</a></li>
+                                </ul>
+                			</a></li>
+                </ul>
+                <nav class="page-tabs" role="navigation">
+                        <ul class="nav nav-tabs">
+
+                        </ul>
+                </nav>
+                <!-- iframe -->
+                <iframe src="homePage.html" class="right-frame">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

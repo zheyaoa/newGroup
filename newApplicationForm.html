@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/newApplicationForm.js"></script>
+    <link rel="stylesheet" href="style/newApplicationForm.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="col-md-offset-3 col-md-6 table-responsive">
+            <form action="" method="get">
+                <table class="table table-hover table-bordered table-condensed">
+                        <div class="page-header tittle">
+                                <h3>新媒体工作室报名表
+                                </h3>
+                            </div>
+                    <tbody>
+                        <!-- row-1 -->
+                        <tr>
+                            <td class="col-1">姓名</td>
+                            <td>
+                                <input type="text" name="name" id="" autocomplete='name'>
+                            </td>
+                            <td class="col-3">性别</td>
+                            <td>
+                                <input type="text" name="sex" id="">
+                            </td>
+                            <td rowspan="5" class="photo"><input type="file"></td>
+                        </tr>
+                        <!-- row-2 -->
+                        <tr>
+                            <td>民族</td>
+                            <td>
+                                <input type="text" name="nation" id="">
+                            </td>
+                            <td>出生年月</td>
+                            <td>
+                                <input type="text" name="date-Of-birth" id="">
+                            </td>
+                        </tr>
+                        <!-- row-3 -->
+                        <tr>
+                            <td>籍贯</td>
+                            <td>
+                                <input type="text" name="native-place" id="">
+                            </td>
+                            <td>政治面貌</td>
+                            <td>
+                                <input type="text" name="political-affiliation" id="">
+                            </td>
+                        </tr>
+                        <!-- row-4 -->
+                        <tr>
+                            <td>学院</td>
+                            <td>
+                                <input type="text" name="collage" id="">
+                            </td>
+                            <td>专业班级</td>
+                            <td>
+                                <input type="text" name="major" id="">
+                            </td>
+                        </tr>
+                        <!-- row-5 -->
+                        <tr>
+                            <td>学号</td>
+                            <td>
+                                <input type="text" name="student-number" id="">
+                            </td>
+                            <td>联系电话</td>
+                            <td>
+                                <input type="text" name="phone-code" id="" autocomplete='tel'>
+                            </td>
+                        </tr>
+                        <!-- row-6 -->
+                        <tr class="row-6"> 
+                            <td colspan="5">个人经历</td>
+                        </tr>
+                        <!-- row-7 -->
+                        <tr>
+                            <td>曾任职务/获得奖项/参与活动
+                            </td>
+                            <td colspan="4">
+                                <textarea row="2" name="experience" id=""></textarea>
+                            </td>
+                        </tr>
+                        <!-- row-8 -->
+                        <tr class="row-8">
+                            <td colspan="5">志愿</td>
+                        </tr>
+                        <!-- row-9  -->
+                        <tr>
+                            <td>第一志愿</td>
+                            <td colspan="4">
+                                <input type="text" name="first-choice" id="">
+                            </td>
+                        </tr>
+                        <!-- row-10 -->
+                        <tr>
+                            <td>理由</td>
+                            <td colspan="4">
+                                <input type="text" name="reason-1" id="">
+                            </td>
+                        </tr>
+                        <!-- row-11 -->
+                        <tr>
+                            <td>第二志愿</td>
+                            <td colspan="4">
+                                <input type="text" name="third-choice" id="">
+                            </td>
+                        </tr>
+                        <!-- row-12 -->
+                        <tr>
+                            <td>理由</td>
+                            <td colspan="4">
+                                <input type="text" name="reason-2" id="">
+                            </td>
+                        </tr>
+                        <!-- row-13 -->
+                        <tr class="row-13  ">
+                            <td colspan="5">说明</td>
+                        </tr>
+                        <!-- row-14 -->
+                        <tr>
+                            <td>个人情况补充说明</td>
+                            <td colspan="4">
+                                <textarea rows="2" name="personal-statement" id=""autocomplete='none' ></textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            <div class="col-md-offset-4 col-md-4">
+                <button type="submit" class="btn  btn-block" id="submit">提交</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

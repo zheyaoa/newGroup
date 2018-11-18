@@ -1,0 +1,29 @@
+body,html{
+    height: 100%;
+    background-color: #F3F3F4;
+}
+.form{
+    position: relative;
+    height: 100%;
+}
+.main-page
+{   
+    background-color: white;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 16px;
+    height: 400px;
+    width: 450px;
+    padding: 50px 50px 0 50px;
+    position: absolute;
+    margin: auto;
+    top:100px;left: 0;right: 0;   
+}
+#date div{
+    margin-top: 30px;
+}
+#submit{
+    background-color: #337ab3;  
+    font-weight: bold;  
+    letter-spacing: 20px;
+    margin-top: 30px;
+}

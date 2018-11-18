@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/manageSociety.js"></script>
+    <link rel="stylesheet" href="style/manageSociety.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row col-sm-offset-3 col-sm-5 col-xs-offset-2  col-xs-8 text-center parent">
+            <div class="content">
+                <h3>社团管理</h3>
+                <div class="input-group input-group">
+                    <span class="input-group-addon name">社团名称：</span>
+                    <input class="form-control" type="text" readonly="flase">
+                </div>
+                <div class="input-group input-group">
+                    <span class="input-group-addon name">联系方式：</span>
+                    <input class="form-control" type="text" readonly="true">
+                </div>
+                <div class="input-group input-group">
+                    <span class="input-group-addon name">上次登入时间：</span>
+                    <input class="form-control" type="date" readonly="ture">
+                </div>
+                <div class="input-group input-group">
+                    <div style="margin-bottom: 2px">
+                        <span class="input-group-addon name" style="text-align: left;padding-left:20px;">
+                            社团部门信息：
+                        </span>
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" id="checkMessage">查看信息</button>
+                        </span>
+                    </div>
+                    <div class="partmentMessage" style="display:none;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th >部门名称</th>
+                                    <th>创建时间</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text"></td>
+                                    <td><input type="date" name="" id="createDate"></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Sachin</td>
+                                    <td><input type="date" name="" id="createDate"></td>
+                                    <td></td>
+
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <button class="btn btn-default" id="addPartment" style="width: 100%;">添加社团</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="input-group input-group">
+                    <span class="input-group-addon name">审核状态：</span>
+                    <input class="form-control" readonly="readonly" type="text" value="正在审核">
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary" type="button">申请审核</button>
+                    </span>
+                </div>
+
+                <div class="btn-group" style="position: relative;">
+                    <!-- <button type="button" class="btn btn-danger" id="alter">修改信息</button> -->
+                    <button type="button" class="btn btn-success" id="affirm">确认修改</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

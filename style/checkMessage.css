@@ -1,0 +1,66 @@
+body{
+    background: #F3F3F4;
+}
+/* 下方导航栏部门 */
+.nav-lists{
+    position: absolute;
+    right: 0px;
+    top:100px;
+    bottom: 0;
+}
+.nav-lists li{
+    margin-right: 110px;
+}
+.nav-lists li a{
+    display: block;
+    width: 20px;
+}
+#pass :hover{
+    background: lightgreen;
+}
+#out :hover{
+    background-color: lightsalmon;  
+}
+#next{
+    margin-right: 0px;
+}
+#last :hover,#next :hover  {
+    background: #00263e;
+}
+/* 主体部门 */
+.tittle{
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+.col-1,.col-3{
+    width: 150px;
+}
+.col-2,.col-4{
+    width: 230px;
+}
+td{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+input{
+    border: none;
+    background-color: #F3F3F4;
+    outline:none;
+}
+textarea{
+    width: 100%;
+    resize : none;
+    background-color: #F3F3F4;
+    border: none;    
+    outline: none;
+}
+.row-6,.row-8,.row-13{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 20px;
+}
+.photo{
+    width: 150px;
+}

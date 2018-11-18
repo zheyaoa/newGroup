@@ -1,0 +1,99 @@
+html,body{
+    height: 100%;
+    background-color: #F3F3F4;
+}
+/* 设置高为100% */
+
+.tittle{
+    padding-bottom: 10px;    
+    text-align: center;
+    letter-spacing: 50px;
+    font-weight: bold;
+}
+
+/* 单个部门介绍页面 */
+/* 单个部门介绍页面左边 */
+.nav-left{
+    width: 100px;
+    height: 170px;
+    float: left;
+}
+.circle{
+    line-height: 100px;
+    text-align: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #E0FFFF;
+
+}
+.partment{
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 单个部门页面右边 */
+.change-message{
+    position: absolute;
+    right: 10px;
+    top: 22px;
+}
+.detail{
+    margin-left: 110px;
+}
+.detail div{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.detail p{
+    line-height:1.42857143;
+}
+.partment-item{
+    position: relative;    
+    box-sizing: border-box;
+    padding: 20px; 
+    margin-bottom: 50px;
+    width: 100%;
+    box-shadow: 5px 5px 5px #888888;
+    background-color: white;
+}
+#col_1{
+    /* padding-left: 100px; */
+}
+#col_2{
+    /* padding-right: 100px; */
+}
+/* 管理部门按钮 */
+#cog{
+    position: absolute;
+    top:15px;
+    right: 20px;
+    background-color: #F3FEF4;
+}
+
+/* 管理部门页面  */
+.form{
+    position: relative;
+    height: 100%;
+}
+.cog_apartment{
+    display: none;   
+    background-color: white;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 16px;
+    height: 400px;
+    width: 450px;
+    padding: 50px 50px 0 50px;
+    position: absolute;
+    margin: auto;
+    top:100px;left: 0;right: 0;   
+}
+#submit{
+    background-color: #337ab3;  
+    font-weight: bold;  
+    letter-spacing: 2px;
+}
